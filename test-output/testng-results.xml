@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-24T12:27:25 IST" name="Default suite" finished-at="2022-07-24T12:31:01 IST" duration-ms="216057">
+    <groups>
+    </groups>
+    <test started-at="2022-07-24T12:27:25 IST" name="Default test" finished-at="2022-07-24T12:31:01 IST" duration-ms="216057">
+      <class name="testPkg.MovieSearch">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testPkg.MovieSearch@3cd3e762]" started-at="2022-07-24T12:27:25 IST" name="beforeClass" finished-at="2022-07-24T12:29:07 IST" duration-ms="101823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testPkg.MovieSearch@3cd3e762]" started-at="2022-07-24T12:29:07 IST" name="beforeMethod" finished-at="2022-07-24T12:29:08 IST" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchResultPrint()[pri:0, instance:testPkg.MovieSearch@3cd3e762]" started-at="2022-07-24T12:29:08 IST" name="searchResultPrint" finished-at="2022-07-24T12:29:55 IST" duration-ms="46968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchResultPrint -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPkg.MovieSearch@3cd3e762]" started-at="2022-07-24T12:29:55 IST" name="afterMethod" finished-at="2022-07-24T12:29:56 IST" duration-ms="998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchResultPrint status=SUCCESS method=MovieSearch.searchResultPrint()[pri:0, instance:testPkg.MovieSearch@3cd3e762] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testPkg.MovieSearch@3cd3e762]" started-at="2022-07-24T12:29:56 IST" name="beforeMethod" finished-at="2022-07-24T12:29:56 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="clickOnMovieRelease1972()[pri:1, instance:testPkg.MovieSearch@3cd3e762]" started-at="2022-07-24T12:29:56 IST" name="clickOnMovieRelease1972" finished-at="2022-07-24T12:30:27 IST" duration-ms="31240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnMovieRelease1972 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPkg.MovieSearch@3cd3e762]" started-at="2022-07-24T12:30:27 IST" name="afterMethod" finished-at="2022-07-24T12:30:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnMovieRelease1972 status=SUCCESS method=MovieSearch.clickOnMovieRelease1972()[pri:1, instance:testPkg.MovieSearch@3cd3e762] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testPkg.MovieSearch@3cd3e762]" started-at="2022-07-24T12:30:27 IST" name="beforeMethod" finished-at="2022-07-24T12:30:27 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGenreAndMpaaRating()[pri:2, instance:testPkg.MovieSearch@3cd3e762]" started-at="2022-07-24T12:30:27 IST" name="verifyGenreAndMpaaRating" finished-at="2022-07-24T12:30:28 IST" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGenreAndMpaaRating -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPkg.MovieSearch@3cd3e762]" started-at="2022-07-24T12:30:28 IST" name="afterMethod" finished-at="2022-07-24T12:30:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyGenreAndMpaaRating status=SUCCESS method=MovieSearch.verifyGenreAndMpaaRating()[pri:2, instance:testPkg.MovieSearch@3cd3e762] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testPkg.MovieSearch@3cd3e762]" started-at="2022-07-24T12:30:28 IST" name="beforeMethod" finished-at="2022-07-24T12:30:28 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyDirectorName()[pri:3, instance:testPkg.MovieSearch@3cd3e762]" started-at="2022-07-24T12:30:28 IST" name="verifyDirectorName" finished-at="2022-07-24T12:30:55 IST" duration-ms="26525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDirectorName -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPkg.MovieSearch@3cd3e762]" started-at="2022-07-24T12:30:55 IST" name="afterMethod" finished-at="2022-07-24T12:30:55 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDirectorName status=SUCCESS method=MovieSearch.verifyDirectorName()[pri:3, instance:testPkg.MovieSearch@3cd3e762] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testPkg.MovieSearch@3cd3e762]" started-at="2022-07-24T12:30:55 IST" name="beforeMethod" finished-at="2022-07-24T12:30:55 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyChareterName()[pri:4, instance:testPkg.MovieSearch@3cd3e762]" started-at="2022-07-24T12:30:55 IST" name="verifyChareterName" finished-at="2022-07-24T12:30:55 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChareterName -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPkg.MovieSearch@3cd3e762]" started-at="2022-07-24T12:30:55 IST" name="afterMethod" finished-at="2022-07-24T12:30:55 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyChareterName status=SUCCESS method=MovieSearch.verifyChareterName()[pri:4, instance:testPkg.MovieSearch@3cd3e762] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testPkg.MovieSearch@3cd3e762]" started-at="2022-07-24T12:30:55 IST" name="afterClass" finished-at="2022-07-24T12:31:01 IST" duration-ms="6505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testPkg.MovieSearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
